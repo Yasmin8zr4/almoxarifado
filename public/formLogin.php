@@ -12,11 +12,13 @@ session_start();
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <a href="formCadastro.php">Não possui uma conta? Cadastrar</a><br>
+    <div class="opcoes">
+        <a href="formCadastro.php">Não possui uma conta? Cadastrar</a><br>
+    </div>
 
-    <div>
-        <h1>Página de Login</h1>
+    <h1>Página de Login</h1>
 
+    <div class="total">
         <?php
             if (isset($_SESSION["error"])) {
                 ?>
@@ -31,6 +33,6 @@ session_start();
             <input type="submit" value="Entrar">
         </form>
     </div>
-    
+
 </body>
 </html>

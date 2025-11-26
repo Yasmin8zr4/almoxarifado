@@ -16,8 +16,8 @@ if (!$_SESSION["logado"]) {
     <link rel="stylesheet" href="public/css/style.css">
 </head>
 <body>
+    <h1>Bem-vindo, Admin!</h1>
     <div class="total">
-        <h2>Bem-vindo, Admin!</h2>
         <a href="public/formCadastroItem.php">Cadastrar Itens</a><br>
         <a href="public/listar.php">Listar Itens</a><br>
         <a href="public/logout.php">Sair</a>

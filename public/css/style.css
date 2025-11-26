@@ -1,4 +1,5 @@
 body {
+    font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(135deg, #f0c046 0%, #FFD670 50%, #f0c046 100%);
     display: flex;
     flex-direction: column; 
@@ -13,11 +14,28 @@ body {
     background-color: #FBFCE1;
     display: flex;
     flex-direction: row;
-    justify-content: space-around; 
+    justify-content: center; 
     align-items: center;     
     height: fit-content;
     width: 300px;
-    padding: 5px;
+    padding-top: 5px; 
+    padding-bottom: 5px;
+    padding-left: 15px; 
+    margin: 30px;
+    padding-right: 15px;
+    border-radius: 10px;
+    border: 2px solid #ffda75;
+    box-shadow: 0px 0px 25px 10px rgba(255, 255, 255, 0.433);
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #2932412c;
+    padding: 8px;
+    margin: 5px;
+    color: #293241;
+    border-radius: 5px;
 }
 
 .total{
@@ -29,11 +47,16 @@ body {
     height: fit-content;
     width: fit-content;
     padding: 80px;
-    margin: 0;
-    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.433);
-    border-radius: 10%;
+    margin: 50px;
+    border: 2px solid #ffda75;
+    box-shadow: 0px 0px 25px 10px rgba(255, 255, 255, 0.433);
+    border-radius: 20px;
 }
 
 h1, h2, input, form, a {
     text-align: center;
+}
+
+h1, h2{
+    color: #ffffff;
 }

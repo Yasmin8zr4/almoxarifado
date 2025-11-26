@@ -11,11 +11,13 @@ session_start();
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <a href="formLogin.php">Já possui uma conta? Fazer Login</a><br>
+    <div class="opcoes">
+        <a href="formLogin.php">Já possui uma conta? Fazer Login</a><br>
+    </div>
+
+    <h1>Criar uma conta</h1>
 
     <div class="total">
-        <h1>Criar uma conta</h1>
-
         <form action="cadastro.php" method="post" onsubmit="return validar()">
             <input type="text" name="nomeDeUsuario" placeholder="Nome de usuário"><br><br>
             <input type="password" name="senha" placeholder="Senha"><br><br>

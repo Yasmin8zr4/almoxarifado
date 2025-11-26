@@ -19,16 +19,14 @@ $data= json_decode(file_get_contents("../app/data.json"), true);
 </head>
 <body>
     <div class="opcoes">
-        <h3>Opções</h3>
-    
         <a href="formCadastroItem.php">Cadastrar Itens</a><br>
         <a href="../index.php">Início</a><br>
         <a href="logout.php">Sair</a>
     </div>
 
+    <h2>Listagem de itens cadastrados</h2>
+
     <div class="total">
-        <h1>Listagem de itens cadastrados</h1>
-    
         <table>
             <thead>
                 <tr>
